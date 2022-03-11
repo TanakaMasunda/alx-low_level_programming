@@ -2,8 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Description - to check if an integer is positive or negative
- * Main - entry point
  * main - prints is positive if n > 0 or negative if n < 0 and zero ifn = 0
  * Return: 0 if exited properly
  */
