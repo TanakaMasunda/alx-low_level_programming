@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there*/
+/**
+ *  more headers goes there
+ */
 #include <stdio.h>
-/* betty style doc for function main goes there */
-/* main - prints if value is positive or negative
+/**
+ *  betty style doc for function main goes there 
+ */
+/**
+ * main - prints if value is positive or negative
  * Return: 0 if exited properly
  */
 int main (void)
