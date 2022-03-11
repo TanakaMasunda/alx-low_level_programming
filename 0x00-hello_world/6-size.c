@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints the size of datatypes
- * return: 0 if exited properly
+ * Return: 0 if exited properly
  */
 int main(void)
 {
