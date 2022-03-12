@@ -4,11 +4,11 @@
 /**
  * main: print last digit of n(last)
  * Return: 0 if exited properly
- * Description: checks the last digit of value of n
+ * Description - checks the last digit of value of n
  */
 
 int main(void)
-{	
+{
 	int n;
 
 	srand(time(0));
