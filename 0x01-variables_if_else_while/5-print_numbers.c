@@ -7,14 +7,15 @@
 
 int main(void)
 {
-	int n = '0';
+	char ch = '0';
 
-	while (n >= 10)
+	while (ch >=9)
 	
 	{
-		printf("%d n\n);
-		n++;
+		putchar(ch);
+		ch++;
 	}
-
+	
+	putchar('\n');
 	return (0);
 }
