@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
+/**
  * main - print last digit of n
  * Return: 0 if exited properly
  */
@@ -11,7 +11,7 @@ int main(void)
 { 
 	
 	int n , lastdigit ;
-	lastdigit = n % 10 ;
+	lastdigit(n) = n % 10 ;
 
 	srand(time(0));
 	n = rand() - RAND_MAX /2;
