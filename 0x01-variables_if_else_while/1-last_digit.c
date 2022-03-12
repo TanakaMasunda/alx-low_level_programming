@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - print last digit of n
+ * main - print last digit of n(lastdigit)
  * Return: 0 if exited properly
  */
 
 int main(void)
-{ 
+{
 	
 	int n , lastdigit ;
 	lastdigit(n) = n % 10 ;
