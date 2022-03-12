@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main: checking for the last digit
+ * main - checking the last digit
  * Return: 0 if exited properly
  * description - checks the last digit of value of n
  */
