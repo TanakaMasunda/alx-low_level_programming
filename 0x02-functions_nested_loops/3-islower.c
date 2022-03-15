@@ -16,11 +16,11 @@ int _islower(int c)
 
 {
 
-	int (int (c));
+	int c;
 
 	_putchar(c);
 
-	if (_islower(int c))
+	if (int c)
 	{
 		return (1);
 	}
