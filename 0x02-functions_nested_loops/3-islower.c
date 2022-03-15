@@ -13,11 +13,11 @@ int _islower(int c);
 int _islower(int c)
 
 {
-	char c;
+	int c;
 
 	_putchar(c);
 
-	if (islower(c))
+	if (_islower(c))
 	{
 		return (1);
 	}
