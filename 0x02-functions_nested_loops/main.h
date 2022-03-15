@@ -1,5 +1,5 @@
 /* Prototype of _putchar function */
-int _putchar(char c);
+int putchar(char ch);
 
 /* prototype of print_putchar function */
-void print_putchar(void);
+void print_alphabet(void);
