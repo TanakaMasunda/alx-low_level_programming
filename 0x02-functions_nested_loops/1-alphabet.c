@@ -9,15 +9,9 @@ void print_alphabet(void);
  *
  * Return: always 0 (success)
  */
-{
-{
-	print_alphabet();
-	return (0);
-}
-/**
- * print_alphabet - writes alphabet string to stdout
- */
+
 void print_alphabet(void)
+
 {
 	
 	char (ch = 'a');
@@ -27,5 +21,5 @@ void print_alphabet(void)
 		ch++;
 	}
 	putchar('\n');
-}
+	return (0);
 }
