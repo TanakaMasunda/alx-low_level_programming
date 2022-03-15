@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+
 /* declaration of alphabet */
 void print_alphabet(void);
 
