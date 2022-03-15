@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-/* declaration of alphabet */
-void print_alphabet(void);
-
 /**
  * main - Entry point
  *
@@ -12,21 +9,12 @@ void print_alphabet(void);
 int main(void)
 {
 	
-	print_alphabet();
-	return (0);
-}
-/**
- * print_alphabet - writes the alphabet to stdout
- */
-void print_alphabet(void)
-{
-	
-	
 	char ch = 'a';
 	while (ch <= 'z')
 	{
-		_putchar(ch);
+		putchar(ch);
 		ch++;
 	}
 	_putchar('\n');
+	return (0);
 }
