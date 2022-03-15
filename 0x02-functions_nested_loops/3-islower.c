@@ -4,9 +4,9 @@
 int _islower(int c);
 
 /**
- * @c - alphabet characters
+ * int c - alphabet characters
  *
- *_islower - check the code
+ * _islower - check the code
  *
  * Return: 1 if c is lowercase
  */
