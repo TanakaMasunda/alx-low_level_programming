@@ -10,6 +10,11 @@ void print_alphabet(void);
  * Return: always 0 (success)
  */
 
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
 void print_alphabet(void)
 
 {
@@ -21,5 +26,4 @@ void print_alphabet(void)
 		ch++;
 	}
 	putchar('\n');
-	return (0);
 }
