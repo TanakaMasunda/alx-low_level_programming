@@ -8,4 +8,4 @@ void print_putchar(void);
 void print_alphabet(void);
 
 /*prototype of the alphabet x10 function */
-void print_alphabetx10(void);
+void print_alphabet_x10(void);
