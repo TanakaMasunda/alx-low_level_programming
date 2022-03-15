@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /* Declaration of print_alphabet function */
