@@ -10,12 +10,22 @@ void print_putchar(void);
 
 int main(void)
 {
+	
+	print_putchar();
+	return (0);
+}
+/**
+ * print_putchar - writes the alphabet to stdout
+ */
+void print_putchar(void)
+{
+	
+	
 	char ch = 'a';
 	while (ch <= 'z')
 	{
-		putchar(ch);
+		_putchar(ch);
 		ch++;
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
