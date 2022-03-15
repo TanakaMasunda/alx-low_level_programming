@@ -1,8 +1,5 @@
 #include "main.h"
 
-
-void print_putchar(void);
-
 int main(void)
 {
 	print_putchar();
