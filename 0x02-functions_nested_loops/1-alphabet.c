@@ -10,6 +10,7 @@ void print_alphabet(void);
  * Return: always 0 (success)
  */
 {
+{
 	print_alphabet();
 	return (0);
 }
@@ -26,4 +27,5 @@ void print_alphabet(void)
 		ch++;
 	}
 	putchar('\n');
+}
 }
