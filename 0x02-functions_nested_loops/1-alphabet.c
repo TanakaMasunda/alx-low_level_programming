@@ -1,6 +1,6 @@
 #include "main.h"
 /* declaration of alphabet */
-void print_putchar(void);
+void print_alphabet(void);
 
 /**
  * main - Entry point
@@ -11,13 +11,13 @@ void print_putchar(void);
 int main(void)
 {
 	
-	print_putchar();
+	print_alphabet();
 	return (0);
 }
 /**
- * print_putchar - writes the alphabet to stdout
+ * print_alphabet - writes the alphabet to stdout
  */
-void print_putchar(void)
+void print_alphabet(void)
 {
 	
 	
