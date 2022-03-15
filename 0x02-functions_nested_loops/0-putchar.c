@@ -1,9 +1,5 @@
 #include "main.h"
 
-/**
- * main - print _putchar
- * Return: 0 if exited properly
- */
 
 void print_putchar(void);
 
