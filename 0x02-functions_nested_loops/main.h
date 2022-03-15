@@ -7,3 +7,5 @@ void print_putchar(void);
 /* pritotype of the alphabet fucntion */
 void print_alphabet(void);
 
+/*prototype of the alphabet x10 function */
+void print_alphabetx10(void);
