@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * main - print putchar
+ * main - print _putchar
  * Return: 0 if exited properly
  */
 
 int main(void)
 
 {
-	putchar('_putchar');
+	char str[] = "_putchar";
+	putchar(str);
 	return (0);
 }
