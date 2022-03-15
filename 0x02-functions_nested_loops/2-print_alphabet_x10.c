@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 
 	while (n <= 9)
 	{
-		chac c = ('a');
+		char c = ('a');
 
 		while (c <= 'z')
 		{
