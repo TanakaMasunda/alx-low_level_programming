@@ -6,13 +6,8 @@
  */
 
 int main(void)
+
 {
-
-	char ch = '_putchar';
-	{
-	putchar(ch);
-
-	putchar("\n");
+	putchar('_putchar');
 	return (0);
-	}
 }
