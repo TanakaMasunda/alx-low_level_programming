@@ -15,16 +15,5 @@ int _islower(int c);
 int _islower(int c)
 
 {
-	int(int c);
-
-	_putchar(c);
-
-	if (int c)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+		return (c >= 'a' && c <= 'z');
 }
