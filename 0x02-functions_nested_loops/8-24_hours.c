@@ -4,7 +4,6 @@
 /**
  * jack_bauer - time of his day
  *
- * @H: check charcteristic
  * @M; characteristic check
  *
  * Return: always 0
