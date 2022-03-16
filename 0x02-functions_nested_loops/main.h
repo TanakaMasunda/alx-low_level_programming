@@ -27,3 +27,12 @@ int print_last_digit(int);
 
 /* prototype for minutes */
 void jack_bauer(void);
+
+/* prototype of times table */
+void times_table(void);
+
+/* add two integers */
+int add(int, int);
+
+/* all natural number */
+void print_to_98(int n);
