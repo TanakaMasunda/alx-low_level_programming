@@ -4,7 +4,8 @@
 /**
  * jack_bauer - time of his day
  *
- * @m: check charcteristic
+ * @H: check charcteristic
+ * @M; characteristic check
  *
  * Return: always 0
  */
@@ -12,9 +13,9 @@
 void jack_bauer(void)
 
 {
-	int H,M;
+	int H, M;
 
-	for (H= 0; H < 24; H++)
+	for (H = 0; H < 24; H++)
 	{
 		for (M = 0; M < 60; M++)
 		{
