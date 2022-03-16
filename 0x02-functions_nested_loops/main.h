@@ -21,3 +21,6 @@ int print_sign(int n);
 
 /* prototype of absolute value of an integer */
 int _abs(int);
+
+/* prototype of last digit of a number */
+int print_last_digit(int);
