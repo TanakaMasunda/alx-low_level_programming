@@ -15,3 +15,6 @@ int _islower(int c);
 
 /* prototype of alphabetic characters */
 int _isalpha(int c);
+
+/* prototype of a sign of a number function */
+int print_sign(int n);
