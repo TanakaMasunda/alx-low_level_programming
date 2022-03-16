@@ -3,7 +3,7 @@
 /**
  * _abs - absolute value of an integer
  *
- * @n: check code 
+ * @n: check code
  *
  * Return: Always 0 (success)
  */
