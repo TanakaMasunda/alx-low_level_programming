@@ -3,24 +3,14 @@
 /**
  * _abs - absolute value of an integer
  *
- * @r: check code 
+ * @n: check code 
  *
  * Return: Always 0 (success)
  */
 
-int _abs(int)
+int _abs(int n)
 
 {
-	int r;
-
-	if (r < 0)
-	{
-		r = (-1)* r;
-		_putchar(r);
-	}
-	else
-	{
-		_putchar(r);
-	}
-	return (0);
+	n = abs(n);
+	return (n);
 }
