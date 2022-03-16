@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add - check add 
+ * add - check add
  *
  * @a: integer a
  *
