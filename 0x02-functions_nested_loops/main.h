@@ -24,3 +24,6 @@ int _abs(int);
 
 /* prototype of last digit of a number */
 int print_last_digit(int);
+
+/* prototype for minutes */
+void jack_bauer(void);
