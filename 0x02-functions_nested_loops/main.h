@@ -18,3 +18,6 @@ int _isalpha(int c);
 
 /* prototype of a sign of a number function */
 int print_sign(int n);
+
+/* prototype of absolute value of an integer */
+int _abs(int);
