@@ -8,14 +8,13 @@
 
 void print_most_numbers(void)
 {
-	int c = '0';
+	int i = '0';
 
-	for (; c <= '9'; c++)
+	for (; i <= '9'; i++)
 	{
-		if ((c != '2') && (c != '4')
+		if (i != '2' && i != '4')
 				
-			_putchar(c);
+			_putchar(i);
 			}
 			_putchar('\n');
-					
 					}
