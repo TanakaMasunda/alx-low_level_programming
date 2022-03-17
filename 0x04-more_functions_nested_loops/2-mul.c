@@ -12,7 +12,7 @@ int mul(int a, int b)
 	int i;
 
 	i = (a * b);
-	putchar(i);
+	printf("%d\n", i);
 
 	return (0);
 }
