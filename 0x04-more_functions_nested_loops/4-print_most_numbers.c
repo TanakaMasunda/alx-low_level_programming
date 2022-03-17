@@ -8,7 +8,7 @@
 
 void print_most_numbers(void)
 {
-	intc = '0';
+	int c = '0';
 
 	for (; c <= '9'; c++)
 	{
