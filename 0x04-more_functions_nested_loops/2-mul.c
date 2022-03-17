@@ -9,10 +9,9 @@
 
 int mul(int a, int b)
 {
-	int i;
-
 	i = (a * b);
-	printf("%d\n", i);
+
+	printf("%d", i);
 
 	return (0);
 }
