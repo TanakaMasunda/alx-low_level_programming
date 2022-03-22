@@ -24,12 +24,12 @@ int _atoi(char *s)
 				m *= 10;
 			size++;
 		}
-		count++
+		count++;
 	}
 	
 	for (i = count - size; i < count; i++)
 	{
-		oi = oi + ((*)s + i) - 48) * m);
+		oi = oi + ((*(s + i) - 48) * m);
 		m /= 10;
 	}
 	return (oi * pn);
