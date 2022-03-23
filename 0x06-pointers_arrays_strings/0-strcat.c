@@ -2,10 +2,12 @@
 
 /**
  * *_strcat - concatenate two strings
+ * @i: source string length
+ * @n: string length
  * Return: void
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	unsigned long i;
 	unsigned long n;
