@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * * _strncat - adds two things together
+ *  _strncat - adds two things together
  * @dest: string pointer
  * @src: source pointer string
  * @n: integer
