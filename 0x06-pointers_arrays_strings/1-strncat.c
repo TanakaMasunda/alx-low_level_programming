@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - adds two things together
+ * * _strncat - adds two things together
  * @dest: string pointer
  * @src: source pointer string
  * @n: integer
@@ -20,6 +20,6 @@ char *_strncat(char *dest, char *src, unsigned long n)
 	}
 	i++;
 	dest[len + i] = '\0';
-	
+
 	return (dest);
 }
