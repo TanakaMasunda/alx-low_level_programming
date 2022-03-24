@@ -20,7 +20,7 @@ void reverse_array(int *a, int n)
 		printf(", ");
 	}
 		printf("%d", a[i]);
-		i--;
+		i++;
 	}
 	printf("\n");
 }
