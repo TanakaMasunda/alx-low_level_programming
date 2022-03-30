@@ -2,19 +2,24 @@
 #include <stdio.h>
 
 /**
- * _print_rev_recursion - print string using recursion
- * @s: pointer
+ * main - function main
  * Return: 0 on success
  */
+
 int main(void)
 {
 	char s[50];
 
 	_print_rev_recursion(s);
-	printf('\0');
+	printf("\n");
 
 	return (0);
 }
+
+/**
+ * _print_rev_recursion - print string in reverse using recursion
+ * Return: 0 on success
+ */
 
 void _print_rev_recursion(char *s)
 {
