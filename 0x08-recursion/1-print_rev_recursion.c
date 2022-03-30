@@ -1,11 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * main - function to print
- * Return: 0 on success
- */
-
 int main(void)
 {
 	char s[50];
