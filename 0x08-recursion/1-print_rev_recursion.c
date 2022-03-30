@@ -6,7 +6,7 @@ int main(void)
 	char s[50];
 
 	_print_rev_recursion(s);
-	printf("\n");
+	_putchar('\n');
 
 	return (0);
 }
@@ -21,6 +21,6 @@ void _print_rev_recursion(char *s)
 	if (*s != '\0')
 	{
 		_print_rev_recursion(s + 1);
-		printf("%c", *s);
+		_putchar(*s);
 	}
 }
