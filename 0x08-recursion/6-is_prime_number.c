@@ -21,8 +21,8 @@ int is_prime_num(int n, int x)
 }
 
 /**
- * is_prime_mumber - fxn returns 1 if input input integer
- * is a prime number , otherwise 0
+ * is_prime_number - functionn returns 1 if input integer
+ * is a prime number , otherwise return 0
  * @n: number integer
  * Return: output
  */
