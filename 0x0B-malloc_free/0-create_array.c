@@ -20,6 +20,7 @@ char *create_array(unsigned int size, char c)
 	if (ptr == NULL || size == 0)
 	{
 		return (NULL);
+	}
 
 	for (i = 0; i < size; i++)
 	{
@@ -27,5 +28,5 @@ char *create_array(unsigned int size, char c)
 	}
 
 	return (ptr);
-	}
+
 }
