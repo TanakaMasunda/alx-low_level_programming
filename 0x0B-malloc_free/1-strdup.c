@@ -16,11 +16,11 @@ char *_strdup(char *str)
 
 	len = 0;
 	i = 0;
-	
+
 	if (str == NULL)
-		{
-					return (NULL);
-		}
+	{
+		return (NULL);
+	}
 
 	while (str[len]	!= '\0')
 		len++;
@@ -31,10 +31,10 @@ char *_strdup(char *str)
 		return (NULL);
 
 	while (str[i] != '\0')
-		{
-			ptr[i] = str[i];
+	{
+		ptr[i] = str[i];
 			i++;
-		}
+	}
 
 	return (ptr);
 }
