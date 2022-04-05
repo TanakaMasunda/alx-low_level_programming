@@ -6,6 +6,7 @@
  * create_array - function to create an array
  * @c: characters of the array
  * @size: size of the arrays
+ * @ptr: pointer
  * Return: return null if size is 0,null if it fails
  */
 
@@ -16,13 +17,13 @@ char *create_array(unsigned int size, char c)
 		return (0);
 
 	{
-		int *ptr;
+		char *ptr;
 
 		if (*ptr == 0)
 			return (0);
 
 		
 	ptr = malloc(sizeof(char) * size);
-	return (0);
+	return (ptr);
 	}
 }
