@@ -15,13 +15,13 @@ char *_strdup(char *str)
 	unsigned int len;
 	char *ptr;
 
-	len == 0;
+	len = 0;
 
 	while (str[len]	!= '\0')
 		len++;
 
 	ptr = malloc((len + 1) * sizeof(char));
-	if (str == NULL || ptr == NULL)
+	if (ptr == NULL)
 	{
 		return (NULL);
 	}
@@ -29,6 +29,8 @@ char *_strdup(char *str)
 	for (i = 0; i < len; i++)
 	{
 		str[i] = ptr[i];
+		if (str == NULL)
+			return (NULL);
 	}
 
 	return (ptr);
