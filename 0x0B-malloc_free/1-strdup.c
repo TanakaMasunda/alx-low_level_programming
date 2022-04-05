@@ -11,11 +11,11 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i;
-	unsigned int len;
+	 int i, len;
 	char *ptr;
 
 	len = 0;
+	i = 0;
 
 	while (str[len]	!= '\0')
 		len++;
@@ -26,11 +26,10 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (i = 0; i < len; i++)
-	{
-		while (str[i] != '\0')
+	while (str[i] != '\0')
 		{
 			ptr[i] = str[i];
+			i++;
 		}
 
 	}
