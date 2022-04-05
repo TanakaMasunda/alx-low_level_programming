@@ -36,10 +36,10 @@ int **alloc_grid(int width, int height)
 	{
 		while (height < width)
 		{
-			ptr[width][height] = 0;
+			ptr[width] * [height] = 0;
 			height++;
 		}
-		printf("%llu\n", sizeof(int) *width + * sizeof(int) * height);
+		printf("\n");
 		width++;
 	}
 
