@@ -39,7 +39,7 @@ int **alloc_grid(int width, int height)
 			ptr[width][height] = 0;
 			height++;
 		}
-		printf("\n");
+		printf("%llu\n", sizeof(int) *width + * sizeof(int) * height);
 		width++;
 	}
 
