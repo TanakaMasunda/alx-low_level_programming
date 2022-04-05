@@ -12,11 +12,17 @@
 char *create_array(unsigned int size, char c)
 {
 
-	int n;
-
 	if (size == 0)
 		return (0);
 
-	_putchar(void * malloc(sizeof(char) * n));
+	{
+		int *ptr;
+
+		if (*ptr == 0)
+			return (0);
+
+		
+	ptr = malloc(sizeof(char) * size);
 	return (0);
+	}
 }
