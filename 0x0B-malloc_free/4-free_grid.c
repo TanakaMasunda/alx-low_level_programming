@@ -4,6 +4,8 @@
 
 /**
  * free_grid - free the pointer
+ * @grid: the double pointer
+ * @height: parameter of an array
  * Return: void
  */
 
