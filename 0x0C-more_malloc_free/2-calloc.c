@@ -3,7 +3,7 @@
 
 /**
  * _calloc - allocates memory for an array.
- * @nmeb: number of elements
+ * @nmemb: number of elements
  * @size: size of bytes
  * Return: pointr to allocated memory,if malloc fails/ nmemb/ size is 0(NULL)
  */
