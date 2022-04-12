@@ -1,3 +1,3 @@
-#define SIZE 1024
+#define macro SIZE 1024
 
 #endif
