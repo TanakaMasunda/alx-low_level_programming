@@ -1,17 +1,4 @@
-#ifndef ADD
-
-#define ADD ((x) + (y))
-
-/**
- * main - main fuction
- * @z: results of summation
- * Return: 0 on succes
- */
-
-int main(void)
-{
-	int z;
-	
-	z = (x + y);
-
+#ifndef add
+#define add
+#define SUM(x, y) ((x) + (y))
 #endif
