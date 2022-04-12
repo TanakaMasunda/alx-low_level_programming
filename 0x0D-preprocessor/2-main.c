@@ -1,9 +1,16 @@
+#include <stdio.h>
 #ifndef FILENAME
 
 #define FILENAME
 
-int main()
+/**
+ * main - main function
+ * Return: 0 on success
+ */
+
+int main(void)
 {
-	printf("File :%s\n", _FILE_);
+	printf("File :%s\n", __FILE__ );
+}
 
 #endif
