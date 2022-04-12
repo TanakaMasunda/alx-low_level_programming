@@ -1,6 +1,9 @@
-#ifndef _FILE_
+#ifndef FILENAME
 
-#define _FILE_
-#define _LINE_
+#define FILENAME
+
+int main()
+{
+	printf("File :%s\n", _FILE_);
 
 #endif
