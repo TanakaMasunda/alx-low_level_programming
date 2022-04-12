@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define FILENAME
+
 /**
  * main - main function
  * Return: 0 on success
