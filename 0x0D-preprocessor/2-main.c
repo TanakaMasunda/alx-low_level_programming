@@ -1,7 +1,4 @@
 #include <stdio.h>
-#ifndef FILENAME
-
-#define FILENAME
 
 /**
  * main - main function
@@ -11,6 +8,5 @@
 int main(void)
 {
 	printf("File :%s\n", __FILE__ );
+	return (0);
 }
-
-#endif
