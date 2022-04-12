@@ -1,2 +1,5 @@
-#include <stdio.h>
+#ifndef _FILE_
 
+#define _FILE_LINE_
+
+#endif
