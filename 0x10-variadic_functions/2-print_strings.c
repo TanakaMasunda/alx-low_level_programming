@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * print _strings - print string
+ * print_strings - print string
  * @separator: string to be printed between the strings
  * @n: number of strings passed to the function
  * Return: no return
