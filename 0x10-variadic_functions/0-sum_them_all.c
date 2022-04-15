@@ -7,7 +7,6 @@
  * Return: 0 on if n == 0
  */
 
-int
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list me;
