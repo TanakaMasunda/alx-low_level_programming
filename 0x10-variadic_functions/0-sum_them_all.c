@@ -4,7 +4,7 @@
 /**
  * sum_them_all - add all the parameters
  * @n: one of the parameters
- * Return: 0  if n == 0 and sum of all its parameters 
+ * Return: sum of all its parameters 
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -23,5 +23,6 @@ int sum_them_all(const unsigned int n, ...)
 		sum += va_arg(valist, int);
 
 	va_end(valist);
+
 	return (sum);
 }
