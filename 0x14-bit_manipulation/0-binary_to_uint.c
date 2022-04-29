@@ -16,21 +16,22 @@ unsigned int binary_to_uint(const char *b)
 	int c;
 	unsigned int len;
 
-	len = strlen(b);
-
 	if (!b)
 		return (0);
+
+	len = _strlen(b);
 
 	for (c = len - 1; c >= 0; c--)
 	{
 		if (b[c] != '0' && b[c] != '1')
 			return (0);
+
 		if (b[c] == '1')
 		{
-			i += dig;
+			i = dig;
 		}
-
-		dig *= 2;
+		else 
+			i = 0;
 	}
 	return (i);
 }
