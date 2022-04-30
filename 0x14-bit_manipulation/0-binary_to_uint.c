@@ -32,6 +32,7 @@ unsigned int binary_to_uint(const char *b)
 		if (b[c] & 1)
 		{
 			i += dig;
+			dig *= 2;
 		}
 	}
 	return (i);
