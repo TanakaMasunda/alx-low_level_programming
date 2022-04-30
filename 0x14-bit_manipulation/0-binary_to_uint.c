@@ -11,29 +11,29 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int dig = 1;
-	unsigned int i = 0;
-	int c;
-	unsigned int len;
+	unsigned int dig;
+	int i;
+	int len;
 
 	if (!b)
 		return (0);
 
-	for (len = 0; b[c] != '\0'; len++)
+	dig = 0;
+
+	for (len = 0; b[len] != '\0'; len++)
 		;
 
-	for (c = len - 1; c >= 0; c--)
+	for (len--, i = 1; len >= 0; len--, i *= 2)
 	{
-		if (b[c] != '0' && b[c] != '1')
+		if (b[len] != '0' && b[len] != '1')
 		{
 			return (0);
 		}
 
-		if (b[c] & 1)
+		if (b[len] & 1)
 		{
-			i += dig;
-			dig *= 2;
+			dig += i;
 		}
 	}
-	return (i);
+	return (dig);
 }
